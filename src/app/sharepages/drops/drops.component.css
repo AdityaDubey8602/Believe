@@ -1,9 +1,7 @@
-@import url('https://fonts.goggleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
 }
 
 body {
@@ -125,6 +123,3 @@ body {
 .container .drop .content a:hover {
     opacity: 1;
 }
-
-
-/* @media (max-width:767px) {} */

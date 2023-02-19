@@ -53,7 +53,7 @@ body {
     display: none;
 }
 
-@media only screen and (max-width: 1092px) {
+@media only screen and (max-width: 1092px) and (min-width: 701px) {
     .navbar .nav-links a {
         color: black;
     }
@@ -121,7 +121,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 416px) and (min-width: 377px) {
     .navbar .nav-btn {
         display: inline;
         position: absolute;
@@ -183,7 +183,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 376px) and (min-width: 362px) {
     .navbar .nav-btn {
         display: inline;
         position: absolute;

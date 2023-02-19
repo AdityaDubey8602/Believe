@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500;700&display=swap');
 .main-home {
     padding: 1rem 7%;
     display: flex;
@@ -63,7 +62,7 @@
 }
 
 .home {
-    background: url(../../../assets/imgs/BgShape.png);
+    background: url(assets/imgs/BgShape.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -86,13 +85,13 @@
     color: var(--headerclr);
 }
 
-@media only screen and (max-width:1092px) {
+@media only screen and (max-width:1092px) and (min-width: 768px) {
     .home {
         background: none;
     }
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:767px) and (min-width:377px) {
     html {
         font-size: 55%;
     }
